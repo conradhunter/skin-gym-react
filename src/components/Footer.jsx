@@ -2,6 +2,7 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from "../assets/logo_trans-cropped.png";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -17,34 +18,34 @@ const Footer = () => {
                 </figure>
                 <ul className="footer__links">
                     <li>
-                        <a href="" className='footer__link'>Home</a>
+                        <Link to="/" className='footer__link'>Home</Link>
                     </li>
                     <li>
-                        <a href="" className='footer__link'>Treatment Menu</a>
+                        <Link to="" className='footer__link'>Treatment Menu</Link>
                     </li>
                     <li>
-                        <a href="" className='footer__link'>Online Store</a>
+                        <Link to="/store" className='footer__link'>Online Store</Link>
                     </li>
                     <li>
-                        <a href="" className='footer__link'>Promotions</a>
+                        <Link to="/promotions" className='footer__link'>Promotions</Link>
                     </li>
                     <li>
-                        <a href="" className='footer__link'>Blog</a>
+                        <Link to="/blog" className='footer__link'>Blog</Link>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/skingymsylvania/" target="_blank">
+                        <Link to="https://www.instagram.com/skingymsylvania/" target="_blank">
                             <FontAwesomeIcon className='nav__icon' icon={faInstagram} />
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/profile.php?id=100076745145745" target="_blank">
+                        <Link to="https://www.facebook.com/profile.php?id=100076745145745" target="_blank">
                             <FontAwesomeIcon className='nav__icon' icon={faFacebookF} />
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
             <div className="mailing__list">
-                <h3>Join our mailing list!</h3>
+                <h3 id='mailingList__heading'>Join our mailing list!</h3>
                 <div className="input__container">
                     <input id='footer__input' type="email" />
                     <button className='btn'>Join</button>

@@ -24,13 +24,13 @@ const Home = () => {
                     <div className="book">
                         <p className='book__para'>Use the link below to book an appointment. If you are unsure what treatment to book or have any questions <Link to="/contact" id='home__contact'>contact us!</Link></p>
                         <p className='book__para'>Looking forward to seeing you in the salon.</p>
-                        <a href="https://bookings.gettimely.com/skingymsylvania/book?uri=https%3A%2F%2Fbook.gettimely.com%2FBooking%2FLocation%2F180523%3Fmobile%3DTrue%26params%3D%25253fclient-login%25253dtrue" target="_blank">
+                        <a href="https://bookings.gettimely.com/skingymsylvania/book" target="_blank">
                             <button className="btn__home">Book Now</button>
                         </a>
                     </div>
                     <div className="book">
                         <p className='book__para'>If you would like to purchase a gift voucher for a friend or family, click the link below!</p>
-                        <a href="https://bookings.gettimely.com/skingymsylvania/purchase?uri=https%3A%2F%2Fbook.gettimely.com%2FGiftVoucher%2FDetails%2F180523%3FisMobile%3DTrue%26giftVoucherId%3D190447%26params%3D%25253fclient-login%25253dtrue%252526giftVoucherId%25253d190447" target="_blank">
+                        <a href="https://bookings.gettimely.com/skingymsylvania/purchase" target="_blank">
                             <button className="btn__home">Purchase Gift Voucher</button>
                         </a>
                     </div>
@@ -41,30 +41,45 @@ const Home = () => {
                             <img src={service} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Skin Needling</h3>
+                        <Link to="">
+                            <button className="btn home__services--btn">Learn More</button>
+                        </Link>
                     </div>
                     <div className="service__container">
                         <figure>
                             <img src={service} className="service__img" alt="" />
                         </figure>
-                        <h3 className='service__heading'>Skin Needling</h3>
+                        <h3 className='service__heading'>Facials</h3>
+                        <Link to="">
+                            <button className="btn home__services--btn">Learn More</button>
+                        </Link>
                     </div>
                     <div className="service__container">
                         <figure>
                             <img src={service} className="service__img" alt="" />
                         </figure>
-                        <h3 className='service__heading'>Skin Needling</h3>
+                        <h3 className='service__heading'>Chemical Peels</h3>
+                        <Link to="">
+                            <button className="btn home__services--btn">Learn More</button>
+                        </Link>
                     </div>
                     <div className="service__container">
                         <figure>
                             <img src={service} className="service__img" alt="" />
                         </figure>
-                        <h3 className='service__heading'>Skin Needling</h3>
+                        <h3 className='service__heading'>LED Light Therapy</h3>
+                        <Link to="">
+                            <button className="btn home__services--btn">Learn More</button>
+                        </Link>
                     </div>
                     <div className="service__container">
                         <figure>
                             <img src={service} className="service__img" alt="" />
                         </figure>
-                        <h3 className='service__heading'>Skin Needling</h3>
+                        <h3 className='service__heading'>Price List</h3>
+                        <Link to="">
+                            <button className="btn home__services--btn">Learn More</button>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -31,14 +31,14 @@ const Nav = () => {
                         <Link to="blog" className='nav__bar--link'>Blog</Link>
                     </li>
                     <li>
-                        <Link to="https://www.instagram.com/skingymsylvania/" target="_blank">
+                        <a href="https://www.instagram.com/skingymsylvania/" target="_blank">
                             <FontAwesomeIcon className='nav__icon' icon={faInstagram} />
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="https://www.facebook.com/profile.php?id=100076745145745" target="_blank">
+                        <a href="https://www.facebook.com/profile.php?id=100076745145745" target="_blank">
                             <FontAwesomeIcon className='nav__icon' icon={faFacebookF} />
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>
