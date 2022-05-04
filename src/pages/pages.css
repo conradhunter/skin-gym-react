@@ -55,7 +55,7 @@ HOME
 }
 
 .color__text {
-    color: red;
+    color: #000;
 }
 
 .service__img {
@@ -122,7 +122,7 @@ HOME
 
 #home__contact {
     text-decoration: none;
-    color: blue;
+    color: #000
 }
 
 .home__services--btn {
@@ -154,6 +154,14 @@ PROMOTIONS
 
 .promotion {
     margin-bottom: 50px;
+}
+
+.promotion__info h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 24px;
 }
 
 .promotion__info h4 {
@@ -204,6 +212,16 @@ BLOG
     margin: 100px 0;
 }
 
+.blog__container h1 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.blog__container h2 {
+    color: #fff;
+    font-weight: 400;
+}
+
 .blog__img {
     margin-bottom: 50px;
 }
@@ -243,3 +261,67 @@ BLOG
 CONTACT
 
 */
+
+.labelInput__container {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.labelInput__container label {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.labelInput__container input {
+    height: 40px;
+    padding: 8px;
+    font-size: 14px; 
+}
+
+.labelInput__container input:focus {
+    outline: none;
+}
+
+.labelInput__container textarea {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.labelInput__container textarea:focus {
+    outline: none;
+}
+
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contactForm__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+}
+
+.contactForm__container h1 {
+    color: #fff;
+    margin-bottom: 44px;
+}
+
+#textArea {
+    margin: 0 auto;
+}
+
+.contact__btn {
+    max-width: 200px;
+    width: 100%;
+    background-color: var(--peach);
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}

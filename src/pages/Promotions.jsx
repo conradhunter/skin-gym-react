@@ -11,7 +11,7 @@ const Promotions = () => {
                         <img src={promotion} alt="" className="promotion" />
                     </figure>
                     <div className="promotion__info">
-                        <h4>April Promotions</h4>
+                        <h1>April Promotions</h1>
                         <h5>20% off your first treatment at Skin Gym Sylvania</h5>
                         <p>Only valid on single full priced treatments, packages are not included. Discount
                             applied in salon. Cannot be used in conjunction with other promotions.
