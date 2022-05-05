@@ -7,6 +7,11 @@ import Store from "./pages/Store";
 import Promotions from "./pages/Promotions";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
+import SkinNeedling from './pages/treatment-menu-pages/Skin-Needling';
+import PriceList from './pages/treatment-menu-pages/Price-list';
+import LedLightTherapy from './pages/treatment-menu-pages/LED-light-therapy';
+import ChemicalPeels from './pages/treatment-menu-pages/Chemical-peels';
+import Facials from './pages/treatment-menu-pages/Facials';
 
 function App() {
   return (
@@ -19,11 +24,11 @@ function App() {
             <Route exact path="/promotions" element={<Promotions/>} />
             <Route exact path="/blog" element={<Blog/>} />
             <Route exact path="/contact" element={<Contact/>} />
-            {/* {Treatment menu} */}
-            {/* {Store} */}
-            {/* {Promotions} */}
-            {/* {Blog} */}
-            {/* Contact */}
+            <Route exact path="/skin-needling" element={<SkinNeedling/>} />
+            <Route exact path="/facials" element={<Facials/>}/>
+            <Route exact path="/chemical-peels" element={<ChemicalPeels/>}/>
+            <Route exact path="/LED-light-therapy" element={<LedLightTherapy/>}/>
+            <Route exact path="/price-list" element={<PriceList/>}/>
           </Routes>
         <Footer />
       </div>

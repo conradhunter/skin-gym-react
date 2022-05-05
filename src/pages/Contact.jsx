@@ -28,7 +28,7 @@ const Contact = () => {
                             <textarea name="message" placeholder='Leave a message with any questions or enquiries!' id="" cols="30" rows="10"></textarea>
                         </div>
                     </div>
-                    <button className="btn contact__btn">Send it our way!</button>
+                    <button className="btn contactPage__btn">Send it our way!</button>
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from "../assets/logo_trans-cropped.png";
 import { Link } from 'react-router-dom';
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
 
 const Nav = () => {
     return (
@@ -19,7 +20,18 @@ const Nav = () => {
                         <Link to="/" className='nav__bar--link'>Home</Link>
                     </li>
                     <li>
-                        <Link to="" className='nav__bar--link'>Treatment Menu</Link>
+                        <div className="dropdown">
+                            <a href="" id='treatmentMenu__link' className='nav__bar--link'>Treatment Menu
+                                <FontAwesomeIcon id='treatment__menu--icon' icon={faCaretDown} />
+                            </a>
+                            <div className="dropdown__menu">
+                                <Link to="/skin-needling" className='dropdown__menu--link'>Skin Needling</Link>
+                                <Link to="/" className='dropdown__menu--link'>Facials</Link>
+                                <Link to="/" className='dropdown__menu--link'>Chemical Peels</Link>
+                                <Link to="/" className='dropdown__menu--link'>LED Light Therapy</Link>
+                                <Link to="/" className='dropdown__menu--link'>Price List</Link>
+                            </div>
+                        </div>
                     </li>
                     <li>
                         <Link to="/store" className='nav__bar--link'>Online Store</Link>
@@ -28,7 +40,7 @@ const Nav = () => {
                         <Link to="/promotions" className='nav__bar--link'>Promotions</Link>
                     </li>
                     <li>
-                        <Link to="blog" className='nav__bar--link'>Blog</Link>
+                        <Link to="/blog" className='nav__bar--link'>Blog</Link>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/skingymsylvania/" target="_blank">
