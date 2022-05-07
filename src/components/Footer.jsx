@@ -21,10 +21,7 @@ const Footer = () => {
                         <Link to="/" className='footer__link'>Home</Link>
                     </li>
                     <li>
-                        <Link to="" className='footer__link'>Treatment Menu</Link>
-                    </li>
-                    <li>
-                        <Link to="/store" className='footer__link'>Online Store</Link>
+                        <Link to="/price-list" className='footer__link'>Treatment Menu</Link>
                     </li>
                     <li>
                         <Link to="/promotions" className='footer__link'>Promotions</Link>
@@ -33,14 +30,14 @@ const Footer = () => {
                         <Link to="/blog" className='footer__link'>Blog</Link>
                     </li>
                     <li>
-                        <Link to="https://www.instagram.com/skingymsylvania/" target="_blank">
+                        <a href="https://www.instagram.com/skingymsylvania/" target="_blank">
                             <FontAwesomeIcon className='nav__icon' icon={faInstagram} />
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link to="https://www.facebook.com/profile.php?id=100076745145745" target="_blank">
+                        <a href="https://www.facebook.com/profile.php?id=100076745145745" target="_blank">
                             <FontAwesomeIcon className='nav__icon' icon={faFacebookF} />
-                        </Link>
+                        </a>
                     </li>
                 </ul>
             </div>

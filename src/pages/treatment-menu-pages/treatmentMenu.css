@@ -36,7 +36,7 @@ SKIN NEEDLING
 
 .skinNeedling__container h1 {
     font-size: 36px;
-    color: #fff;
+    color: #000;
     margin-bottom: 25px;
 }
 
@@ -49,12 +49,12 @@ SKIN NEEDLING
 }
 
 .heading__para--container p {
-    color: #fff;
+    color: #000;
     max-width: 700px;
 }
 
 .heading__para--container h3 {
-    color: #fff;
+    color: #000;
     font-size: 22px;
     font-weight: 500;
     margin-bottom: 10px;
@@ -72,6 +72,54 @@ FACIALS
 
 */
 
+.facials__container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facials__container h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 25px;
+}
+
+.facial__outline--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.facial__outline--container p {
+    max-width: 700px;
+}
+
+.facial__outline--container h2 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.facial__heading {
+    text-decoration: underline;
+}
+
+.facial__option {
+    margin-top: 20px;
+}
+
+.facial__option h3 {
+    margin-bottom: 8px;
+}
+
+.bold__text {
+    font-weight: 600;
+    font-size: 18px;
+}
 
 
 /* 
@@ -80,7 +128,58 @@ CHEMICAL PEELS
 
 */
 
+.chemicalPeels__container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.chemicalPeels__container h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.chemicalPeel__outline--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.chemicalPeel__outline--container p {
+    max-width: 700px;
+}
+
+.chemicalPeel__outline--container h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.chemicalPeel__outline--container h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.chemicalPeel__option {
+    margin-top: 20px;
+}
+
+.packages__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chemicalPeel__option h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
 
 /* 
 

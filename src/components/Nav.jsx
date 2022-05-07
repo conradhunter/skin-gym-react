@@ -26,15 +26,12 @@ const Nav = () => {
                             </a>
                             <div className="dropdown__menu">
                                 <Link to="/skin-needling" className='dropdown__menu--link'>Skin Needling</Link>
-                                <Link to="/" className='dropdown__menu--link'>Facials</Link>
-                                <Link to="/" className='dropdown__menu--link'>Chemical Peels</Link>
-                                <Link to="/" className='dropdown__menu--link'>LED Light Therapy</Link>
+                                <Link to="/facials" className='dropdown__menu--link'>Facials</Link>
+                                <Link to="/chemical-peels" className='dropdown__menu--link'>Chemical Peels</Link>
+                                <Link to="/LED-light-therapy" className='dropdown__menu--link'>LED Light Therapy</Link>
                                 <Link to="/" className='dropdown__menu--link'>Price List</Link>
                             </div>
                         </div>
-                    </li>
-                    <li>
-                        <Link to="/store" className='nav__bar--link'>Online Store</Link>
                     </li>
                     <li>
                         <Link to="/promotions" className='nav__bar--link'>Promotions</Link>

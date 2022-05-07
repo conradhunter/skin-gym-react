@@ -44,18 +44,19 @@ HOME
 .intro__heading {
     margin-bottom: 16px;
     font-size: 26px;
-    color: #fff;
+    color: #000;
 }
 
 .intro__para {
     max-width: 500px;
     margin-bottom: 16px;
-    color: #fff;
+    color: #000;
     font-size: 18px;
 }
 
 .color__text {
-    color: #000;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
 }
 
 .service__img {
@@ -84,7 +85,7 @@ HOME
 }
 
 .service__heading {
-    color: #fff;
+    color: #000;
     padding-bottom: 16px;
 }
 
@@ -101,7 +102,7 @@ HOME
     line-height: 1.8;
     font-size: 17px;
     font-weight: 500;
-    color: #fff;
+    color: #000;
 }
 
 .book {
@@ -116,27 +117,19 @@ HOME
     padding: 8px 12px;
     border-radius: 3px;
     background-color: var(--peach);
-    border: 2px solid black;
+    border: 3px solid var(--dark-yellow);
     cursor: pointer;
 }
 
 #home__contact {
-    text-decoration: none;
-    color: #000
+    text-decoration: underline;
+    color: #fff;
 }
 
 .home__services--btn {
     background-color: var(--peach);
     font-size: 18px;
 }
-
-
-/* 
-
-STORE
-
-*/
-
 
 /*
 
@@ -157,7 +150,7 @@ PROMOTIONS
 }
 
 .promotion__info h1 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 36px;
     font-weight: 600;
@@ -165,21 +158,21 @@ PROMOTIONS
 }
 
 .promotion__info h4 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 22px;
     font-weight: 600;
 }
 
 .promotion__info h5 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
 }
 
 .promotion__info p {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 18px;
     font-weight: 500;
@@ -213,12 +206,12 @@ BLOG
 }
 
 .blog__container h1 {
-    color: #fff;
+    color: #000;
     font-weight: 500;
 }
 
 .blog__container h2 {
-    color: #fff;
+    color: #000;
     font-weight: 400;
 }
 
@@ -309,7 +302,7 @@ CONTACT
 }
 
 .contactForm__container h1 {
-    color: #fff;
+    color: #000;
     margin-bottom: 44px;
 }
 

@@ -52,9 +52,12 @@ const SkinNeedling = () => {
                     <div className="heading__para--container">
                         <h3>What is the duration of the treatment?</h3>
                         <p>
-                            Face - approximately 25 minutes, all treatments include a consultation and home care recommendations so allow 45 minutes.
+                            Face - approximately 25 minutes, all treatments include a consultation and home 
+                            care recommendations so allow 45 minutes.
+                            <br></br>
                             Face & neck - approximately 40 minutes, all treatments include a consultation 
-                            and home care recommendations so allow an hour
+                            and home care recommendations so allow an hour.
+                            <br></br>
                             Face, neck & décolletage - approximately an hour, all treatments include a 
                             consultation and home care recommendations so allow an hour and 15 minutes
                         </p>
@@ -63,9 +66,13 @@ const SkinNeedling = () => {
                         <h3>How much does it cost?</h3>
                         <p>
                             Face - $225
+                            <br></br>
                             Face & neck  - $265
+                            <br></br>
                             Face, neck and décolletage - $300
+                            <br></br>
                             LED Add on - $40
+                            <br></br>
                             Skin needling is recommended in a course of treatments for optimal results.
                         </p>
                     </div>
@@ -73,12 +80,19 @@ const SkinNeedling = () => {
                         <h3>Purchase 3 skin needling treatments and get 10% off, purchase 6 and get 20% off.</h3>
                         <p>
                             3 x face - $607.50 (10% off)
+                            <br></br>
                             3 x face and neck - $715.50 (10% off)
+                            <br></br>
                             3 x face, neck and décolletage - $810 (10% off)
+                            <br></br>
                             LED add on $108 (10% off)
+                            <br></br>
                             6 x face - $1080 (20% off)
+                            <br></br>
                             6 x face and neck - $1272 (20% off)
+                            <br></br>
                             6 x face, neck and décolletage - $1440 (20% off)
+                            <br></br>
                             LED add on $192 (20% off)
                         </p>
                     </div>
