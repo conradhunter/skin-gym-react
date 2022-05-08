@@ -60,21 +60,16 @@ HOME
 }
 
 .service__img {
-    max-width: 200px;
+    max-width: 300px;
     width: 100%;
     border-radius: 5px;
     margin: 10px;
     transition: all 300ms ease;
 }
 
-.service__img:hover {
-    transform: scale(0.95);
-    opacity: 90%;
-}
-
 .services__home {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .service__container {
@@ -270,9 +265,9 @@ CONTACT
 }
 
 .labelInput__container input {
-    height: 40px;
+    height: 46px;
     padding: 8px;
-    font-size: 14px; 
+    font-size: 16px; 
 }
 
 .labelInput__container input:focus {
@@ -316,5 +311,6 @@ CONTACT
     background-color: var(--peach);
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 44px;
 }
