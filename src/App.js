@@ -6,11 +6,11 @@ import Home from './pages/Home';
 import Promotions from "./pages/Promotions";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import SkinNeedling from "./pages/treatment-menu-pages/Skin-Needling.jsx";
 import PriceList from './pages/treatment-menu-pages/Price-list';
 import LedLightTherapy from './pages/treatment-menu-pages/LED-light-therapy';
 import ChemicalPeels from './pages/treatment-menu-pages/Chemical-peels';
 import Facials from './pages/treatment-menu-pages/Facials';
+import SkinNeedling from "../src/pages/treatment-menu-pages/Skin-Needling";
 
 function App() {
   return (
