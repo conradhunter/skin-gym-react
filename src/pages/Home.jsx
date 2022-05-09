@@ -1,7 +1,8 @@
 import React from 'react';
 import "./pages.css";
 import studio from "../assets/studio.jpg";
-import service from "../assets/test__img.jpg";
+import facial from "../assets/facial.jpg";
+import chemicalPeel from "../assets/chemical-peel.jpg";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -47,7 +48,7 @@ const Home = () => {
                     </div>
                     <div className="service__container">
                         <figure>
-                            <img src={service} className="service__img" alt="" />
+                            <img src={facial} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Facials</h3>
                         <Link to="">
@@ -56,7 +57,7 @@ const Home = () => {
                     </div>
                     <div className="service__container">
                         <figure>
-                            <img src={service} className="service__img" alt="" />
+                            <img src={chemicalPeel} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Chemical Peels</h3>
                         <Link to="">
@@ -74,7 +75,7 @@ const Home = () => {
                     </div>
                     <div className="service__container">
                         <figure>
-                            <img src={service} className="service__img" alt="" />
+                            <img src={studio} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Price List</h3>
                         <Link to="">

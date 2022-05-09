@@ -29,7 +29,7 @@ const Nav = () => {
                                 <Link to="/facials" className='dropdown__menu--link'>Facials</Link>
                                 <Link to="/chemical-peels" className='dropdown__menu--link'>Chemical Peels</Link>
                                 <Link to="/LED-light-therapy" className='dropdown__menu--link'>LED Light Therapy</Link>
-                                <Link to="/" className='dropdown__menu--link'>Price List</Link>
+                                <Link to="/price-list" className='dropdown__menu--link'>Price List</Link>
                             </div>
                         </div>
                     </li>
