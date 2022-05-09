@@ -44,7 +44,7 @@ const Home = () => {
                             <img src={skinNeedling} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Skin Needling</h3>
-                        <Link to="">
+                        <Link to="/skin-needling">
                             <button className="btn home__services--btn">Learn More</button>
                         </Link>
                     </div>
@@ -53,7 +53,7 @@ const Home = () => {
                             <img src={facial} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Facials</h3>
-                        <Link to="">
+                        <Link to="/facials">
                             <button className="btn home__services--btn">Learn More</button>
                         </Link>
                     </div>
@@ -62,7 +62,7 @@ const Home = () => {
                             <img src={chemicalPeel} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Chemical Peels</h3>
-                        <Link to="">
+                        <Link to="/chemical-peels">
                             <button className="btn home__services--btn">Learn More</button>
                         </Link>
                     </div>
@@ -71,7 +71,7 @@ const Home = () => {
                             <img src={LEDLightTherapy} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>LED Light Therapy</h3>
-                        <Link to="">
+                        <Link to="/LED-light-therapy">
                             <button className="btn home__services--btn">Learn More</button>
                         </Link>
                     </div>
@@ -80,7 +80,7 @@ const Home = () => {
                             <img src={studio} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Price List</h3>
-                        <Link to="">
+                        <Link to="/price-list">
                             <button className="btn home__services--btn">Learn More</button>
                         </Link>
                     </div>
