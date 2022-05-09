@@ -3,6 +3,8 @@ import "./pages.css";
 import studio from "../assets/studio.jpg";
 import facial from "../assets/facial.jpg";
 import chemicalPeel from "../assets/chemical-peel.jpg";
+import skinNeedling from "../assets/skin-needling.jpg";
+import LEDLightTherapy from "../assets/LED-light-therapy.jpg";
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -39,7 +41,7 @@ const Home = () => {
                 <div className="services__home">
                     <div className="service__container">
                         <figure>
-                            <img src={service} className="service__img" alt="" />
+                            <img src={skinNeedling} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>Skin Needling</h3>
                         <Link to="">
@@ -66,7 +68,7 @@ const Home = () => {
                     </div>
                     <div className="service__container">
                         <figure>
-                            <img src={service} className="service__img" alt="" />
+                            <img src={LEDLightTherapy} className="service__img" alt="" />
                         </figure>
                         <h3 className='service__heading'>LED Light Therapy</h3>
                         <Link to="">
