@@ -41,13 +41,6 @@ const Footer = () => {
                     </li>
                 </ul>
             </div>
-            <div className="mailing__list">
-                <h3 id='mailingList__heading'>Join our mailing list!</h3>
-                <div className="input__container">
-                    <input id='footer__input' type="email" />
-                    <button className='btn' id='footer__mailingList--btn'>Join</button>
-                </div>
-            </div>
         </div>
     );
 }
