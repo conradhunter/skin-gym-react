@@ -184,6 +184,10 @@ CHEMICAL PEELS
     font-size: 20px;
 }
 
+#chemicalPeel__intro--para {
+    margin-bottom: 25px;
+}
+
 /* 
 
 LED LIGHT THERAPY
@@ -312,4 +316,194 @@ PRICE LIST
 .priceList__packages {
     line-height: 1.7;
     font-size: 17px;
+}
+
+/* MEDIA QUERIES */
+
+/* SKIN NEEDLING */
+
+@media (max-width: 768px) {
+    .skinNeedling__container h1 {
+        font-size: 21px;
+    }
+    .heading__para--container h3 {
+        font-size: 17px;
+    }
+    .heading__para--container p {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1080px) {
+    .skinNeedling__container h1 {
+        font-size: 28px;
+    }
+    .heading__para--container h3 {
+        font-size: 20px;
+        max-width: 75%;
+    }
+    .heading__para--container p {
+        font-size: 15px;
+        max-width: 75%;
+    }
+}
+
+
+
+/* FACIALS */
+
+@media (max-width: 768px) {
+    .facials__container h1 {
+        font-size: 26px;
+    }
+    .facial__option h3 {
+        font-size: 18px;
+    }
+    .facial__option p {
+        font-size: 14px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .facial__outline--container h2 {
+        font-size: 18px;
+    }
+    .facial__outline--container p {
+        font-size: 14px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1080px) {
+    .facials__container h1 {
+        font-size: 28px;
+    }
+    .facial__option h3 {
+        font-size: 18px;
+    }
+    .facial__option p {
+        font-size: 15px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .facial__outline--container h2 {
+        font-size: 18px;
+    }
+    .facial__outline--container p {
+        font-size: 15px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+
+
+/* CHEMICAL PEELS */
+
+@media (max-width: 768px) {
+    #chemicalPeel__intro--para {
+        font-size: 14px;
+    }
+    #option__para {
+        font-size: 14px;
+    }
+    .chemicalPeel__option h3 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1080px) {
+    .chemicalPeels__container h1 {
+        font-size: 28px;
+    }
+    .chemicalPeels__container h3 {
+        font-size: 24px;
+    }
+    .chemicalPeels__container p {
+        font-size: 16px;
+    }
+    .chemicalPeel__outline--container h2 {
+        font-size: 24px;
+    }
+    .chemicalPeel__option h3 {
+        font-size: 20px;
+    }
+    .chemicalPeel__option p {
+        font-size: 16px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .packages__container h3 {
+        font-size: 22px;
+    }
+    .chemicalPeel__outline--container p {
+        font-size: 16px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+
+/* LED LIGHT THERAPY */
+
+@media (max-width: 768px) {
+    .lightTherapy__container h1 {
+        font-size: 24px;
+    }
+    #LED__heading {
+        font-size: 20px;
+        max-width: 75%;
+    }
+    #LED__para {
+        font-size: 14px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1080px) {
+    .lightTherapy__container h1 {
+        font-size: 28px;
+    }
+    .heading__para h3 {
+        font-size: 24px;
+    }
+    .heading__para p {
+        font-size: 16px;
+        max-width: 75%;
+        margin: 0 auto;
+    }
+}
+
+
+
+/* PRICE LIST */
+
+@media (max-width: 768px) {
+    #priceList__heading {
+        font-size: 24px;
+    }
+    #priceList__para--small {
+        font-size: 14px;
+    }
+    .treatment__price--container h3 {
+        font-size: 20px;
+    }
+    .treatment__price--container h4 {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1080px) {
+    #priceList__heading {
+        font-size: 28px;
+    }
+    .priceList__info p {
+        font-size: 16px;
+        max-width: 75%;
+    }
+    .treatment__price--container p {
+        font-size: 16px;
+    }
+    .treatment__price--container h3 {
+        font-size: 24px;
+    }
+    .treatment__price--container h4 {
+        font-size: 22px;
+    }
 }

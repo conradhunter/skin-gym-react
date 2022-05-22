@@ -155,6 +155,7 @@ FOOTER
     padding-top: 26px;
     padding-bottom: 26px;
     width: 100%;
+    display: none;
 }
 
 #footer__logo {

@@ -9,7 +9,7 @@ const Facials = () => {
                     <h1>Facials</h1>
                     <div className="facial__outline--container">
                         <h2 className='facial__heading'>Platinum Facial</h2>
-                        <p>
+                        <p id='facial__intro--para'>
                             Our relaxing age-defying facial that rejuvenates and firms the skin for a more 
                             youthful appearance. This facial brings radiance and luminosity to the skin. The 
                             ultimate facial that will have you leaving the salon with your skin absolutely 

@@ -6,7 +6,7 @@ const SkinNeedling = () => {
         <div className="skinNeedling__page">
             <div className="row">
                 <div className="skinNeedling__container">
-                    <h1>Skin Needling</h1>
+                    <h1 id='skinNeedling__heading'>Skin Needling</h1>
                     <div className="heading__para--container">
                         <h3>What is skin needling?</h3>
                         <p>

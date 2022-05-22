@@ -6,9 +6,9 @@ const PriceList = () => {
         <div className="priceList__page">
             <div className="row">
                 <div className="priceList__container">
-                    <h1>Price List</h1>
+                    <h1 id='priceList__heading'>Price List</h1>
                     <div className="priceList__info">
-                        <p>
+                        <p id='priceList__para--small'>
                             All treatments include a consultation and home care recommendations. Products 
                             are available to purchase at the salon to align with recommendations.
                         </p>
@@ -18,7 +18,7 @@ const PriceList = () => {
                     </div>
                     <div className="treatment__price--container">
                         <h3>Skin Needling</h3>
-                        <p className='skinNeedling__prices'>
+                        <p id='priceList__para--small' className='skinNeedling__prices'>
                             Face - <span className='bold__text--priceList'>$225</span>
                             <br></br>
                             Face & Neck - <span className='bold__text--priceList'>$265</span>
@@ -31,7 +31,7 @@ const PriceList = () => {
                             <br></br>
                         </p>
                         <h4>Skin Needling Packages</h4>
-                        <p className='skinNeedling__packages'>
+                        <p id='priceList__para--small' className='skinNeedling__packages'>
                             Skin needling is recommended in a course of treatments for optimal results.
                             <br></br>
                             Purchase 3 skin needling treatments and get 10% off, purchase 6 and get 20% off.
@@ -61,31 +61,31 @@ const PriceList = () => {
                     <div className="treatment__price--container">
                         <h3>Facials</h3>
                         <h5 className='facial__option--heading'>Platinum Facial</h5>
-                        <p>
+                        <p id='priceList__para--small'>
                             Express - <span className='bold__text--priceList'>$130</span>
                             <br></br>
                             Deluxe - <span className='bold__text--priceList'>$150</span>
                         </p>
                         <h5 className='facial__option--heading'>Pore Refining Facial</h5>
-                        <p>
+                        <p id='priceList__para--small'>
                             Express - <span className='bold__text--priceList'>$120</span>
                             <br></br>
                             Deluxe - <span className='bold__text--priceList'>$140</span>
                         </p>
                         <h5 className='facial__option--heading'>Clarity Facial</h5>
-                        <p>
+                        <p id='priceList__para--small'>
                             Express - <span className='bold__text--priceList'>$110</span>
                             <br></br>
                             Deluxe - <span className='bold__text--priceList'>$130</span>
                         </p>
                         <h5 className='facial__option--heading'>Claming & Hydrating Facial</h5>
-                        <p>
+                        <p id='priceList__para--small'>
                             Express - <span className='bold__text--priceList'>$110</span>
                             <br></br>
                             Deluxe - <span className='bold__text--priceList'>$130</span>
                         </p>
                         <h5 className='facial__option--heading'>LED Add on & Facial</h5>
-                        <p>
+                        <p id='priceList__para--small'>
                             LED add on (All Facials) - <span className='bold__text--priceList'>$40</span>
                             <br></br>
                             LED Express Facial - <span className='bold__text--priceList'>$80</span>
@@ -96,7 +96,7 @@ const PriceList = () => {
                     </div>
                     <div className="treatment__price--container">
                         <h3>Chemical Peels</h3>
-                        <p className='priceList__prices'>
+                        <p id='priceList__para--small' className='priceList__prices'>
                             Introductory Peels - <span className='bold__text--priceList'>$120</span>
                             <br></br>
                             Level 1 Peels - <span className='bold__text--priceList'>$120</span>
@@ -107,7 +107,7 @@ const PriceList = () => {
                             <br></br>
                         </p>
                         <h4>Chemical Peel Packages</h4>
-                        <p className='priceList__packages'>
+                        <p id='priceList__para--small' className='priceList__packages'>
                             Chemical Peels are recommended in a course of treatments for optimal results.
                             <br></br>
                             Purchase 3 chemical peel treatments and get 10% off, purchase 6 and get 20% off.
@@ -131,11 +131,11 @@ const PriceList = () => {
                     </div>
                     <div className="treatment__price--container">
                         <h3>LED Light Therapy</h3>
-                        <p className='priceList__prices'>
+                        <p id='priceList__para--small' className='priceList__prices'>
                             Express LED Facial - <span className='bold__text--priceList'>$80</span>
                         </p>
                         <h4>LED Light Therapy Packages</h4>
-                        <p className='priceList__packages'>
+                        <p id='priceList__para--small' className='priceList__packages'>
                             LED treatments are recommended in a course of treatments for optimal results.
                             <br></br>
                             Purchase 6 LED treatments and get 10% off, purchase 12 and get 20% off.
