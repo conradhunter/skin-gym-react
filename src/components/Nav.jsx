@@ -4,7 +4,7 @@ import { faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import logo from "../assets/logo_trans-cropped.png";
 import { Link } from 'react-router-dom';
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons"
+import { faCaretDown, faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Nav = () => {
     return (
@@ -15,7 +15,10 @@ const Nav = () => {
                 </figure>
             </div>
             <div className="links">
-                <ul className="nav__bar--links">
+                <button className="hamburger" id='hamburger'>
+                    <FontAwesomeIcon icon={faBars} id="hamburger__icon" />
+                </button>
+                <ul className="nav__bar--links" id='nav__ul'>
                     <li>
                         <Link to="/" className='nav__bar--link'>Home</Link>
                     </li>
@@ -53,7 +56,7 @@ const Nav = () => {
             </div>
             <div className="contact__btn">
                 <Link to="/contact">
-                    <button className="btn">Contact</button>
+                    <button className="btn" id='contact__btn--nav'>Contact</button>
                 </Link>
             </div>
         </div>

@@ -12,6 +12,7 @@ import ChemicalPeels from './pages/treatment-menu-pages/Chemical-peels';
 import Facials from './pages/treatment-menu-pages/Facials';
 import SkinNeedling from "./pages/treatment-menu-pages/Skin-needling";
 
+
 function App() {
   return (
     <Router>

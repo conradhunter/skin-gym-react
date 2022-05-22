@@ -38,6 +38,7 @@ SKIN NEEDLING
     font-size: 36px;
     color: #000;
     margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .heading__para--container {
@@ -84,6 +85,7 @@ FACIALS
     font-size: 36px;
     color: #000;
     margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .facial__outline--container {
@@ -139,6 +141,7 @@ CHEMICAL PEELS
 .chemicalPeels__container h1 {
     font-size: 36px;
     margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .chemicalPeel__outline--container {
@@ -198,6 +201,7 @@ LED LIGHT THERAPY
 .lightTherapy__container h1 {
     font-size: 36px;
     margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .heading__para {
@@ -237,6 +241,7 @@ PRICE LIST
 .priceList__container h1 {
     font-size: 36px;
     margin-bottom: 25px;
+    text-decoration: underline;
 }
 
 .treatment__price--container {

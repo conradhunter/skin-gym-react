@@ -35,7 +35,7 @@ HOME
 }
 
 #intro__img {
-    max-width: 450px;
+    max-width: 325px;
     width: 100%;
     border-radius: 10px;
 }
@@ -51,7 +51,7 @@ HOME
     max-width: 500px;
     margin-bottom: 16px;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .color__text {
@@ -60,7 +60,7 @@ HOME
 }
 
 .service__img {
-    max-width: 300px;
+    max-width: 250px;
     width: 100%;
     border-radius: 5px;
     margin: 10px;
@@ -95,7 +95,7 @@ HOME
     max-width: 400px;
     text-align: center;
     line-height: 1.8;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 500;
     color: #000;
 }
@@ -118,7 +118,7 @@ HOME
 
 #home__contact {
     text-decoration: underline;
-    color: #fff;
+    color: blue;
 }
 
 .home__services--btn {
@@ -147,16 +147,10 @@ PROMOTIONS
 .promotion__info h1 {
     color: #000;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 24px;
-}
-
-.promotion__info h4 {
-    color: #000;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 600;
+    text-decoration: underline;
 }
 
 .promotion__info h5 {
@@ -169,7 +163,8 @@ PROMOTIONS
 .promotion__info p {
     color: #000;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    max-width: 650px;
     font-weight: 500;
     display: flex;
     flex-direction: column;
@@ -202,12 +197,14 @@ BLOG
 
 .blog__container h1 {
     color: #000;
+    text-decoration: underline;
     font-weight: 500;
 }
 
 .blog__container h2 {
     color: #000;
     font-weight: 400;
+    font-size: 22px;
 }
 
 .blog__img {
@@ -286,7 +283,7 @@ CONTACT
 .contactForm {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .contactForm__container {

@@ -20,6 +20,7 @@ NAVIGATION BAR
     justify-content: space-between;
     padding: 0 100px;
     background-color: var(--peach);
+    width: 100%;
 }
 
 #nav__logo {
@@ -53,12 +54,12 @@ NAVIGATION BAR
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     position: relative;
 }
 
 .nav__icon {
-    font-size: 28px;
+    font-size: 24px;
     color: #fff;
 }
 
@@ -86,6 +87,12 @@ NAVIGATION BAR
     border-radius: 3px;
     cursor: pointer;
     color: rgb(0, 0, 0);
+}
+
+#contact__btn--nav {
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
 }
 
 li {
@@ -121,6 +128,18 @@ li {
     margin-left: 5px;
 }
 
+#hamburger__icon {
+    font-size: 26px;
+    color: #fff;
+}
+
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
 /* 
 
 FOOTER
@@ -135,10 +154,11 @@ FOOTER
     align-items: center;
     padding-top: 26px;
     padding-bottom: 26px;
+    width: 100%;
 }
 
 #footer__logo {
-    max-width: 150px;
+    max-width: 100px;
     width: 100%;
     margin-bottom: 26px;
 }
@@ -152,7 +172,7 @@ FOOTER
     text-decoration: none;
     color: #fff;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 #mailingList__heading {
@@ -165,7 +185,7 @@ li {
     list-style-type: none;
 }
 
-#footer__logo__links {
+#footer__logo--links {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,12 +214,50 @@ li {
 .footer__info--link {
     text-decoration: none;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+    transition: all 300ms ease;
+}
+
+.footer__info--link:hover {
+    color: rgb(230, 230, 230);
+}
+
+#footer__mailingList--btn {
+    width: 100px;
+    height: 36px;
+    font-size: 16px;
 }
 
 .footer__info {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
 }
+
+@media (max-width: 320px) {
+    
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1080px) {
+    #nav__ul {
+        display: none;
+    }
+
+    .contact__btn {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+}
+
