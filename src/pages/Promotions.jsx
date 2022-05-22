@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import promotion from "../assets/april-promotions.jpg";
 
 const Promotions = () => {
@@ -11,7 +10,7 @@ const Promotions = () => {
                         <img src={promotion} alt="" className="promotion" />
                     </figure>
                     <div className="promotion__info">
-                        <h1>May Promotions</h1>
+                        <h1 id='promotions__heading'>May Promotions</h1>
                         <h5>20% off your first treatment at Skin Gym Sylvania</h5>
                         <p>Only valid on single full priced treatments, packages are not included. Discount
                             applied in salon. Cannot be used in conjunction with other promotions.

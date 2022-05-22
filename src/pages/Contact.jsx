@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="contact__page">
             <div className="row">
                 <div className="contactForm__container">
-                    <h1>Get in touch with us!</h1>
+                    <h1 id='contact__heading'>Get in touch with us!</h1>
                     <div className="contactForm">
                         <div className='labelInput__container'>
                             <label htmlFor="">First Name</label>
